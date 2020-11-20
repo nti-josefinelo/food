@@ -1,1 +1,45 @@
 /* Denna fil skall innehålla din CSS kod */
+* {
+    margin: 0px;
+}
+
+#gridwrapper {
+    display: grid;
+    width: 100vw;
+    height: 200vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 7fr 5fr 3fr;
+
+    grid-template-areas: 
+    'he'
+    'na'
+    'ar1'
+    'ar2'
+    'fo';
+}
+
+.header {
+    grid-area: he;
+    background: firebrick;
+}
+
+.nav {
+    grid-area: na;
+    background: teal;
+}
+
+.article1 {
+    grid-area: ar1;
+    background: gold;
+}
+
+.article2 {
+    grid-area: ar2;
+    background: blueviolet;
+}
+
+.footer {
+    grid-area: fo;
+    background: plum;
+}
+
