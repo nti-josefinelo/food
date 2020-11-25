@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+body {
+    background-image: url(../img/hav.jpg);
+}
+
 #gridwrapper {
     display: grid;
     width: 100vw;
@@ -19,27 +23,69 @@
 }
 
 .header {
+    display: flex;
     grid-area: he;
-    background: firebrick;
+    background: whitesmoke;
+    justify-content: center;
 }
 
 .nav {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-area: na;
-    background: teal;
+    background: rgb(0, 21, 92);
+    height: 65px;
+    font-family: HouseScript; 
+    color: whitesmoke;
+}
+
+.innernav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+a:link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: none;
 }
 
 .article1 {
     grid-area: ar1;
-    background: gold;
+    background: powderblue;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    background-image: url(../img/mat.jpg);
+    background-size: 100%;
+    border-style: ridge;
 }
 
 .article2 {
+    display: flex;
     grid-area: ar2;
-    background: blueviolet;
+    background: whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    border-style: ridge;
 }
 
 .footer {
     grid-area: fo;
-    background: plum;
+    background: whitesmoke;
 }
-
