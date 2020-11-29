@@ -38,7 +38,7 @@ body {
     grid-area: na;
     background: rgb(0, 21, 92);
     height: 65px;
-    font-family: HouseScript; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
     color: whitesmoke;
 }
 
@@ -83,9 +83,21 @@ a:hover {
     margin-right: 10%;
     margin-bottom: 1%;
     border-style: ridge;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: large;
 }
 
 .footer {
+    display: grid;
     grid-area: fo;
-    background: whitesmoke;
+    background: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.innerfooter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
