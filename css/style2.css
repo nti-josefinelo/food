@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-image: url(../img/hav.jpg);
+}
+
+#gridwrapper {
+    display: grid;
+    width: 100vw;
+    height: 200vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 7fr 2fr;
+    grid-template-areas: 
+    'he'
+    'na'
+    'fo'; 
+}
+
+.header {
+    display: grid;
+    grid-area: he;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom: solid;
+}
+
+.innerheader1 {
+    background: whitesmoke;
+}
+
+.button {
+    font-size: 10px;
+    padding: 14px 40px;
+    border-radius: 12px;
+    transition-duration: 0,8s;
+    margin-top: 45px;
+    margin-left: 100px;
+}
+
+.button:hover {
+    background-color: rgb(187, 185, 185);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.innerheader2 {
+    display: flex;
+    background: whitesmoke;
+    justify-content: center;
+}
+
+.innerheader3 {
+    background: whitesmoke;
+}
+
+.nav {
+    display: grid;
+    background: whitesmoke;
+    border-style: solid;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    margin-top: 5%;
+    grid-area: na
+}
+
+.innernav1 {
+    display: flex;
+    font-size: xx-large;
+    text-decoration: underline;
+    justify-content: center;
+}
+
+.innernav2 {
+    font-size: larger;
+}
+
+.innernav3 {
+    font-size: larger;
+}
+
+.innernav4 {
+    font-size: larger;
+}
+
+.innernav5 {
+    font-size: larger;
+}
+
+.innernav6 {
+    font-size: larger;
+}
+
+.innernav7 {
+    font-size: larger;
+}
+
+.innernav8 {
+    font-size: larger;
+}
+
+.innernav9 {
+    font-size: larger;
+}
+
+.innernav10 {
+    font-size: larger;
+}
+
+.innernav11 {
+    font-size: larger;
+}
+
+.innernav12 {
+    font-size: larger;
+}
+
+.innernav13 {
+    font-size: larger;
+}
+
+.innernav14 {
+    font-size: larger;
+}
+
+.innernav15 {
+    font-size: larger;
+}
