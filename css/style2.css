@@ -1,9 +1,17 @@
 * {
     margin: 0px;
+    font-family: montserrat;
 }
 
 body {
     background-image: url(../img/hav.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(Montserrat-Light.ttf);
 }
 
 #gridwrapper {
@@ -11,7 +19,7 @@ body {
     width: 100vw;
     height: 200vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 7fr 2fr;
+    grid-template-rows: 1fr 7fr 1fr;
     grid-template-areas: 
     'he'
     'na'
@@ -31,12 +39,12 @@ body {
 }
 
 .button {
-    font-size: 10px;
+    font-size: 15px;
     padding: 14px 40px;
     border-radius: 12px;
     transition-duration: 0,8s;
-    margin-top: 45px;
-    margin-left: 100px;
+    margin-top: 50px;
+    margin-left: 115px;
 }
 
 .button:hover {
@@ -63,7 +71,10 @@ body {
     margin-right: 5%;
     margin-bottom: 1%;
     margin-top: 5%;
-    grid-area: na
+    grid-area: na;
+    background-image: url(../img/Mat3.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
 }
 
 .innernav1 {
@@ -74,57 +85,108 @@ body {
 }
 
 .innernav2 {
-    font-size: larger;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: -10px;
 }
 
 .innernav3 {
-    font-size: larger;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-left: 10px;
 }
 
 .innernav4 {
-    font-size: larger;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-left: 10px; 
 }
 
 .innernav5 {
-    font-size: larger;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-left: 10px; 
 }
 
 .innernav6 {
-    font-size: larger;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-left: 10px; 
 }
 
 .innernav7 {
-    font-size: larger;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .innernav8 {
-    font-size: larger;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: -10px;
 }
 
 .innernav9 {
-    font-size: larger;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-left: 10px;
 }
 
 .innernav10 {
-    font-size: larger;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-left: 10px;
 }
 
 .innernav11 {
-    font-size: larger;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-left: 10px; 
 }
 
 .innernav12 {
-    font-size: larger;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-left: 10px;
 }
 
 .innernav13 {
-    font-size: larger;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-left: 10px;
 }
 
 .innernav14 {
-    font-size: larger;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-left: 10px; 
 }
 
 .innernav15 {
-    font-size: larger;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-left: 10px;
+}
+
+.footer {
+    grid-area: fo;
 }

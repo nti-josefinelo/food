@@ -1,10 +1,18 @@
 /* Denna fil skall innehålla din CSS kod */
 * {
     margin: 0px;
+    font-family: montserrat;
 }
 
 body {
     background-image: url(../img/hav.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(Montserrat-Light.ttf);
 }
 
 #gridwrapper {
@@ -38,7 +46,6 @@ body {
     grid-area: na;
     background: rgb(0, 21, 92);
     height: 65px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
     color: whitesmoke;
 }
 
@@ -71,7 +78,7 @@ a:hover {
     margin-bottom: 1%;
     background-image: url(../img/mat.jpg);
     background-size: 100%;
-    border-style: ridge;
+    border-style: solid;
 }
 
 .article2 {
@@ -81,9 +88,12 @@ a:hover {
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 1%;
-    border-style: ridge;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    border-style: solid; 
     font-size: large;
+}
+
+.themarine {
+    margin-left: 10px;
 }
 
 .footer {
@@ -92,11 +102,12 @@ a:hover {
     background: white;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    border: solid;
 }
 
 .innerfooter {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 200px;
 }
